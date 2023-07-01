@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <!-- 导入公用css与js -->
+    <link type="text/css" rel="stylesheet" href="../../css/yemian/yemian.css">
+
+    <!-- 导入自用css与js -->
+    <link type="text/css" rel="stylesheet" href="../../css/yemian/22.css">
+    <script type="text/javascript" src="../../js/yemian/2kaPianGuanLied.js"></script>
+    <script type="text/javascript" src="../../js\yemian\22.js"></script>
+</head>
+
+<body>
+    <!-- todo滑动窗口滑动效果 -->
+    <!-- 滑动窗口 -->
+    <div class="slidingWindow">
+        <!-- 加一张卡 -->
+        <input type="button" value="加一张卡" onclick="insertCard()" />
+        <!-- 删卡 -->
+        <div class="button">删除第<input id="cardIndex" type="text" value="1">张卡<input type="button" value="删除"
+                onclick="deleteCard()"></div>
+        <!-- 标题 -->
+        <div class="biaoti">卡包管理</div>
+        <div class="kuangContainer">
+            <!-- nfc卡包框 -->
+            <div class=kuang>
+                <hr>
+                <!-- 副标题 -->
+                <div class="fubiaoti">&ensp;NFC卡包</div>
+                <div class="bianji" onclick="">编辑</div>
+                <!-- 外框容器 -->
+                <!-- 卡片容器 -->
+                <div id="cardContainer" class="cardContainer">
+
+                    <!-- <div class="shanchu" onclick="quedingshanchu()">
+                        <img src="..\..\resouce/imgs/yemian/kapianguanli/删除按钮.png">
+                    </div> -->
+
+
+                    <!-- 添加门禁卡 -->
+                    <div class="card">
+                        <img src="..\..\resouce\imgs\yemian\kapianguanli\添加门禁卡.png">
+                    </div>
+                    <!-- 添加公交卡 -->
+                    <div class="card">
+                        <img src="..\..\resouce\imgs\yemian\kapianguanli\添加公交卡.png">
+                    </div>
+                </div>
+            </div>
+            <!-- 钱包支付框-->
+            <div class="kuang">
+                <hr>
+                <div class="fubiaoti">&ensp;钱包支付</div>
+                <!-- todo 插入图片，修改class-->
+                <div class="cardContainer">
+                    <div class="card2">
+                        <img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+body {
+    overflow: hidden;
+}
+
+.biaoti {
+    /* 卡片操作 */
+    position: absolute;
+    width: 169px;
+    height: 55px;
+    left: 0;
+    top: 25px;
+
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.rec {
+    /* 标题历史记录下方大矩形框 */
+    position: absolute;
+    left: 28px;
+    top: 92px;
+    right: 37px;
+    bottom: 32px;
+    box-sizing: border-box;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.recordMenu {
+    position: relative;
+    height: 65px;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.kapianshiyong {
+    /* 卡片使用 */
+    position: relative;
+    width: 130px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    border-right: 5px solid rgb(0, 0, 0);
+
+
+    color: rgb(0, 0, 0);
+    font-family: Source Han Serif CN;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 2.6;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.cunkashanka {
+    /* 存卡删卡 */
+    position: absolute;
+    width: 130px;
+    height: 65px;
+    left: 130px;
+    top: 0px;
+    border-right: 5px solid rgb(0, 0, 0);
+
+    color: rgb(0, 0, 0);
+    font-family: Source Han Serif CN;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 2.6;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.geshihua {
+    /* 格式化 */
+    position: absolute;
+    width: 95px;
+    height: 65px;
+    left: 260px;
+    top: 0px;
+
+
+    color: rgb(0, 0, 0);
+    font-family: Source Han Serif CN;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 2.6;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.jiluyemian {
+    /* 页面 */
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+}

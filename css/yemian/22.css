@@ -1,0 +1,84 @@
+body {
+    overflow-x: hidden;
+}
+
+.kuangContainer {
+    position: absolute;
+    left: 28px;
+    top: 92px;
+    right: 37px;
+}
+
+.kuang {
+    position: relative;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.cardContainer {
+    /* 卡片容器 */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    top: 20px;
+    left: 15px;
+}
+
+.card11 {
+    /* 卡片 */
+    position: relative;
+    width: 300px;
+    height: 185.4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transform: translate(-50%, 0%);
+}
+.card {
+    /* 卡片 */
+    position: relative;
+    width: 300px;
+    height: 185.4px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.card2 {
+    /* 卡片演示 */
+    position: relative;
+    width: 300px;
+    height: 185.4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(164, 76, 76);
+}
+
+.bianji {
+    /* 编辑 */
+    position: absolute;
+    width: 73px;
+    height: 36px;
+    left: 256px;
+    top: 25px;
+
+
+    color: rgb(0, 0, 0);
+    font-family: Source Han Serif CN;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: rgb(196, 196, 196);
+}
+.shanchu{
+    /* 组合 29 */
+position: absolute;
+width: 50px;
+height: 50px;
+left: 240px;
+top: 70px;
+
+
+background: rgb(255, 0, 0);
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>手机窗口</title>
+  <!-- 导入css与js文件 -->
+  <link type="text/css" rel="stylesheet" href="../css/phone.css">
+  <script type="text/javascript" src="../js/phone.js"></script>
+</head>
+
+<body>
+  <div class="phone">
+
+    <div class="screen">
+
+      <!-- 页面 -->
+      <div class="yemian">
+        <iframe id="yemian" src="../html/yemian/1kaPianCaoZuo.html" width="100%" height="100%"></iframe>
+      </div>
+
+      <!-- 底部菜单 -->
+      <!-- 卡片操作框 -->
+      <div class="kapiancaozuo" onclick="kapiancaozuoClick()">
+        <!-- 卡片操作图标 -->
+        <div class="kapiancaozuoIcon">
+          <img id="kapiancaozuoImg" src="..\resouce/imgs/卡片操作图标.png" alt="卡片操作">
+        </div>
+        <!-- 卡片操作字体 -->
+        <div>
+          <p class="kapiancaozuoZi">卡片操作</p>
+        </div>
+      </div>
+
+      <div class="kapianguanli" onclick="kaPianGuanLiClick()">
+        <div class="cardManageIcon">
+          <img id="kapianguanliImg" src="..\resouce\imgs\卡片管理图标.png" alt="卡片管理">
+        </div>
+        <div>
+          <p class="kapianguanliZi">卡片管理</p>
+        </div>
+      </div>
+
+      <div class="lishijilu" onclick="liShiJiLuClick()">
+        <div class="lishijiluIcon">
+          <img id="lishijiluImg" src="..\resouce\imgs\历史记录图标.png" alt="历史记录">
+        </div>
+        <div>
+          <p class="lishijiluZi">历史记录</p>
+        </div>
+      </div>>
+
+      <div class="gerenzhongxin" onclick="geRenZhongXinClick()">
+        <div class="gerenzhongxinIcon">
+          <img id="gerenzhongxinImg" src="..\resouce\imgs\个人中心图标.png" alt="个人中心">
+        </div>
+        <div>
+          <p class="gerenzhongxinZi">个人中心</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body {
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.tupian{
+    position: absolute;
+    left: -5px;
+    top: -5px;
+}
+.fanhui{
+    /* 小于号 */
+position: absolute;
+width: 60px;
+height: 60px;
+left: 0%;
+top: 2.54%;
+}
+.shibiechenggong{
+position: absolute;
+width: 400px;
+height: 220px;
+left: 10;
+top: 280;
+}

@@ -1,0 +1,93 @@
+.zhengshangfangshoujizuhe1 {
+    /* 正上方手机组合 */
+    position: absolute;
+    width: 145.97px;
+    height: 96px;
+    left: 233px;
+    right: 51.03px;
+    top: 7px;
+    bottom: 724px;
+}
+
+.yijianduka {
+    /* 一键读卡 */
+    position: absolute;
+    width: 390px;
+    height: 246px;
+    left: 20px;
+    top: 120px;
+}
+
+.dukagongju {
+    /* 读卡工具 */
+    position: absolute;
+    width: 115px;
+    height: 38px;
+    left: 13px;
+    right: 302px;
+    top: 376px;
+    bottom: 413px;
+}
+
+.kapiangeshihua {
+    /* 卡片格式化 */
+    position: absolute;
+    width: 184px;
+    height: 153px;
+    left: 22px;
+    right: 224px;
+    top: 414px;
+    bottom: 260px;
+}
+
+.paizhaoshika {
+    /* 拍照识卡 */
+    position: absolute;
+    width: 193px;
+    height: 153px;
+    left: 217px;
+    right: 20px;
+    top: 414px;
+    bottom: 260px;
+}
+
+.shiyongjiaocheng {
+    /* 使用教程 */
+    position: absolute;
+    width: 145px;
+    height: 38px;
+    left: 13px;
+    right: 272px;
+    top: 588px;
+    bottom: 201px;
+}
+
+.paizhaoshika_shiyongjiaocheng {
+    position: absolute;
+    width: 388px;
+    height: 153px;
+    left: 22px;
+    right: 20px;
+    top: 643px;
+    bottom: 31px;
+}
+.biaoti{
+    /* 卡片操作 */
+position: absolute;
+width: 169px;
+height: 55px;
+left: 0;
+right: 261px;
+top: 25px;
+bottom: 747px;
+
+
+color: rgb(0, 0, 0);
+font-family: Source Han Serif CN;
+font-size: 36px;
+font-weight: 400;
+letter-spacing: 0px;
+text-align: center;
+
+
+}

@@ -1,0 +1,62 @@
+body {
+    overflow-x: hidden;
+}
+
+iframe {
+    /* 关闭边框 */
+    border: none;
+}
+
+/* 修改滑动条的宽度和高度 */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+.slidingWindow {
+    /* 滑动窗口 */
+    position: absolute;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    background: rgb(244, 244, 244);
+}
+
+.tubiao {
+    /* chat-history-line */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.biaoti {
+    /* 当前还没有记录哦~ */
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    color: rgb(0, 0, 0);
+    font-family: Source Han Serif CN;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 52;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.recordContainer{
+    position: relative;
+    width: 325px;
+    left: 15px;
+    right: 15px;
+}
+
+.record{
+    height: 125;
+    left: 0;
+    right: 0;
+    margin: 5px;
+}

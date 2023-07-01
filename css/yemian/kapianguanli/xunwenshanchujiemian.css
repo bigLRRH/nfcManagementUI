@@ -1,0 +1,44 @@
+body{
+    overflow: hidden;
+}
+
+/* 400*250 */
+.shanchuxuanxiang {
+    /* 中心警示框 */
+    position: relative;
+    width: 400px;
+    height: 220px;
+}
+
+.queding {
+    /* 确定 */
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: 200px;
+
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+
+    background: rgb(255, 0, 0);
+}
+
+.quxiao {
+    /* 取消 */
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: 200px;
+    left: 201px;
+
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+
+    background: rgb(214, 188, 188);
+}

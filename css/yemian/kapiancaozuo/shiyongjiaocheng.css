@@ -1,0 +1,35 @@
+body {
+    overflow-x: hidden;
+}
+.tupian{
+    position: absolute;
+    left: -5px;
+    top: -5px;
+}
+.ziti
+{
+    /* 读卡是什么 */
+position: absolute;
+width: 297px;
+height: 166px;
+left: 133px;
+top: 790px;
+
+
+color: rgb(0, 0, 0);
+font-family: Noto Sans SC;
+font-size: 36px;
+font-weight: 400;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.fanhui{
+    /* 小于号 */
+position: absolute;
+width: 60px;
+height: 60px;
+left: 0%;
+top: 2.54%;
+}
